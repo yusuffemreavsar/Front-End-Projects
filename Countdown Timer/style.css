@@ -1,0 +1,43 @@
+
+* {
+
+  box-sizing: border-box;
+}
+body{
+  
+  font-family: 'Courier New', Courier, monospace;
+  margin:0;
+  background-image:url('bg.jpg');
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover; 
+  background-position: center center;
+  background-repeat: no-repeat;
+  flex-direction: column;
+}
+h1{
+  font-weight: normal;
+  font-size: 4rem;
+  color: azure;
+  margin-top: 1rem;
+}
+.countdown-container{
+  display:flex;
+  color: azure;
+}
+.big-text{
+  font-weight: bold;
+  font-size: 6rem;
+  line-height:1 ;
+  margin: 0 2rem;
+}
+.countdown-el{
+  margin-top:  4rem;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+.countdown-el span{
+  font-size: 1rem;
+}
