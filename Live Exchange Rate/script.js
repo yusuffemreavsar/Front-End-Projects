@@ -16,6 +16,7 @@ async function fetchRates(){
     let res =await fetch(requestURL)
     res=await res.json()
     rates=res.rates
+    console.log(rates)
     populateOptions()
 }
 //Filling of the Selections
@@ -72,4 +73,5 @@ document.querySelector(".swap").addEventListener("click",()=>{
     sel2.value=op1
     sel1.value=op2
 })
+
 
